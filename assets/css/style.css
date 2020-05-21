@@ -1,7 +1,216 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100,200,300,400,500,600,700&family=Montserrat:wght@100,200,300,400,500,600,700&display=swap');
 
 
-body {
+
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #eec802;
+    border-color: #eec802;
+}
+
+.callout-container {
+  height: 100vh;
+
+  background: url("../images/heroleaf.jpg") no-repeat bottom right
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quotes-container {
+}
+
+.features-container {
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+
+.block-divider {
+  width: 200px;
+  height: 5px;
+  border: 0;
+  background-color: #FFAA00;
+}
+
+.block-divider--orange {
+  background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+  width: 35px;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.navalert-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1;
+  background-color: #589500;
+  display: flex;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+}
+
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
+.navbar-brand {
+    /* height: 50px;
+    width: 50px; */
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+button span i {
+    font-size: 24px;
+    color: #000000;
+}
+
+.jumbotron {
+  background-color: rgba(188, 244, 110, 0.8);
+  border-radius: 162px;
+  width: 900px;
+  
+}
+
+.jumbotron-header {
+  color: #000000;
+  font-weight: bold;
+  font-family: 'josefin sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+  margin: 25px 0;
+  color: #000000;
+  font-family: 'montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron small {
+  font-size: 60%;
+  font-style: italic;
+  color: #d0d0d0;
+}
+
+.btn--cta {
+  font-weight: bold;
+  border-radius: 23px;
+  width: 160px;
+}
+
+.btn--red {
+  color: #000000;
+  font-family: 'montserrat', sans-serif;
+  background-color: #FFAA00;
+  border-color: #FFAA00;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+  background-color: #df4929;
+  border-color: #df4929;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+
+
+
+
+
+
+
+/* -----Body and Background Image--------- */
+
+/* body {
   height: 100vh;
 
   background: url("../images/heroleaf.jpg") no-repeat fixed;
@@ -17,75 +226,81 @@ body {
   margin: 0;
 
   position: relative;
-}
+} */
 
-.opaque-overlay {
+/* .opaque-overlay {
   position: relative;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   background-color: rgba(188, 244, 110, 0.8)
-}
+} */
 
 
-.navbar-logo {
-    height: 100px;
-    width: 100px;
+/* ------Logo in Navbar------- */
+
+/* .navbar-logo {
+    height: 150px;
+    width: 150px;
     position: relative;
     float: left;
 }
 
-.navbar {
-    background-color: #589500;
-    margin-bottom: 0;
-    border: 0;
-    width: 100%
-}
+.logo-container {
+    display: flex;
+} */
 
-.company-name-container {
-    display: inline-flex;
-    flex-flow: nowrap;
-    position: relative;
-    float: left;
-}
+
+
+/* -------------Company Name Text in Navbar--------------- */
 
 
 .company-name1 {
-/* position: absolute;
-float: left;
-width: 675px;
-height: 209px;
-left: 140px;
-top: 22px;
-line-height: 18px; */
 border-bottom: 2px solid #FFAA00;
 font-family: 'josefin sans', sans-serif;
 font-weight: 700;
-font-size: 40px;
+font-size: 25px;
 font-style: normal;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-left: 0;
 }
 
 .company-name2 {
     color: #000000;
     font-family: 'montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 0;
+    margin-left: 0;
 }
 
 
-.nav-item {
+/* ----------Navbar Styling-------- */
+
+/* .navbar {
+    background-color: #589500;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%
+} */
+
+
+/* ------------Navbar Links----------- */
+
+ /* .nav-link {
     color: #000000;
-}
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 20px;  
+    font-family: 'montserrat', sans-serif;
+} */
 
-.logo-container {
-    display: flex;
-}
 
+/* ----------Burger Menu Styling--------- */
 
-button span i {
+/* button span i {
     font-size: 24px;
     color: #000000;
 }
@@ -96,4 +311,16 @@ button span i {
       outline: none;
       background-color: #589500;
     }
-}
+} */
+
+
+
+/* .container-services {
+    position: relative;
+    width: 962px;
+    height: 794px;
+    left: 219px;
+    top: 340px;
+    background: rgba(188, 244, 110, 0.8);
+    border-radius: 162px;
+} */
