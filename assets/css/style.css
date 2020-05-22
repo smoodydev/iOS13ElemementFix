@@ -3,12 +3,13 @@
 
 
 .container-wrapper {
+    background-color: rgb(255, 182, 193, 0.8);
 
 }
 
 .container-wrapper--red {
-    background-color: #f05f40;
-    color: white;
+    background-color: rgba(188, 244, 110, 0.8);
+    color: #000000;
 }
 
 .alert-container .col-12 {
@@ -51,6 +52,7 @@
 }
 
 .quotes-container {
+ 
 }
 
 .features-container {
@@ -92,7 +94,7 @@
 
 .content-container {
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 200px;
 }
 
 .navalert-container {
@@ -201,7 +203,17 @@ button span i {
     color: #f05f40;
 }
 
+.service-link {
+    color: #589500;
+}
 
+.service-text {
+    color: #000000;
+    font-family: 'montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 
 
@@ -260,7 +272,7 @@ button span i {
 border-bottom: 2px solid #FFAA00;
 font-family: 'josefin sans', sans-serif;
 font-weight: 700;
-font-size: 25px;
+font-size: 40px;
 font-style: normal;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 margin-left: 0;
@@ -269,7 +281,7 @@ margin-left: 0;
 .company-name2 {
     color: #000000;
     font-family: 'montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     line-height: 0;
