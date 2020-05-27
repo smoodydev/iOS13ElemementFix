@@ -3,12 +3,12 @@
 
 
 .container-wrapper {
-    background-color: rgb(255, 182, 193, 0.8);
+    background-color: rgb(255, 182, 193, 0.5);
 
 }
 
 .container-wrapper--red {
-    background-color: rgba(188, 244, 110, 0.8);
+    background-color: rgba(188, 244, 110, 0.5);
     color: #000000;
 }
 
