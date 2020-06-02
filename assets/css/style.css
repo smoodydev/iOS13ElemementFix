@@ -14,28 +14,40 @@
 
 
 
-.hero-container {
+/* .hero-container {
   height: 100vh;
-  
-
   background: url("../images/heroleaf.jpg") no-repeat bottom right
-    fixed;
+  fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   position: relative;
+  padding-top: 15%;
+  padding-bottom: 5%;
+} */
 
+.hero-container {
+  height: 100vh;
+  background: url("../images/heroleaf.jpg") no-repeat bottom right
+  fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
   padding-top: 15%;
   padding-bottom: 5%;
 }
-
-
 
 
 
