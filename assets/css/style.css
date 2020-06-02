@@ -6,29 +6,7 @@
     background-color: rgba(188, 244, 110, 0.5);
 }
 
-/* .container-wrapper--red {
-    background-color: rgba(188, 244, 110, 0.5);
-    color: #000000;
-} */
 
-
-
-
-/* .hero-container {
-  height: 100vh;
-  background: url("../images/heroleaf.jpg") no-repeat bottom right
-  fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding-top: 15%;
-  padding-bottom: 5%;
-} */
 
 .hero-container {
   height: 100vh;
@@ -373,92 +351,7 @@ button span i {
 
 
 
-/* footer {
-    background-color: #589500;
-    line-height: 100%;
-    align-items: center;
-    justify-content: center;
-}
 
-
-
-
-.social-links {
-  text-align: center;
-}
-
-.social-links li a {
-  color: #000000;
-  font-size: 180%;
-}
-
-.social-links a:hover {
-    color: #FFAA00;
-}
-
-.social-links li {
-  margin: 1%;
-  padding: 4%;
-  display: inline;
-  font-size: 180%;
-}
-
-.copyright {
-    display: inline-block;
-    text-align: center;
-} 
-
-
-
-
-
-
-/* -----Body and Background Image--------- */
-
-/* body {
-  height: 100vh;
-
-  background: url("../images/heroleaf.jpg") no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin: 0;
-
-  position: relative;
-} */
-
-/* .opaque-overlay {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(188, 244, 110, 0.8)
-} */
-
-
-/* ------Logo in Navbar------- */
-
-/* .navbar-logo {
-    height: 150px;
-    width: 150px;
-    position: relative;
-    float: left;
-}
-
-.logo-container {
-    display: flex;
-} */
-
-
-
-/* -------------Company Name Text in Navbar--------------- */
 
 
 .company-name1 {
@@ -482,50 +375,3 @@ margin-left: 0;
 }
 
 
-/* ----------Navbar Styling-------- */
-
-/* .navbar {
-    background-color: #589500;
-    margin-bottom: 0;
-    border: 0;
-    width: 100%
-} */
-
-
-/* ------------Navbar Links----------- */
-
- /* .nav-link {
-    color: #000000;
-    font-weight: 400;
-    margin-top: 0;
-    font-size: 20px;  
-    font-family: 'montserrat', sans-serif;
-} */
-
-
-/* ----------Burger Menu Styling--------- */
-
-/* button span i {
-    font-size: 24px;
-    color: #000000;
-}
-
-@media (max-width: 767px) {
-    .navbar-toggle {
-      border: none;
-      outline: none;
-      background-color: #589500;
-    }
-} */
-
-
-
-/* .container-services {
-    position: relative;
-    width: 962px;
-    height: 794px;
-    left: 219px;
-    top: 340px;
-    background: rgba(188, 244, 110, 0.8);
-    border-radius: 162px;
-} */
