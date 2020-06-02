@@ -157,6 +157,23 @@ button span i {
   margin-bottom: 2%;
 }
 
+@media (max-width: 767px) {
+    .jumbotron-header {
+        font-size: 150%;
+    }
+    .block-divider {
+        width: 100px;
+    }
+    .lead {
+        font-size: 80%;
+    }
+    .service-text {
+        font-size: 50%;
+    }
+    
+
+}
+
 .jumbotron .lead {
   margin: 25px 0;
   color: #000000;
@@ -164,11 +181,7 @@ button span i {
   font-weight: bold;
 }
 
-.jumbotron small {
-  font-size: 60%;
-  font-style: italic;
-  color: #d0d0d0;
-}
+
 
 .btn--cta {
   font-weight: bold;
@@ -273,6 +286,8 @@ button span i {
   border: 5px solid #FFAA00;
   background-image: none;
 }
+
+
 
 .carousel-control-next-icon:after
 {
