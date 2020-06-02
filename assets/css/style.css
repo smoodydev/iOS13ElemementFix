@@ -49,6 +49,29 @@
   padding-bottom: 5%;
 }
 
+@media (max-width: 767px) {
+    .hero-container {
+        height: 100vh;
+        background: url("../images/heroleaf.jpg") no-repeat bottom right
+        scroll;
+        background-size: cover;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        position: relative;
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+    
+
+}
+
 
 
 .page-header {
@@ -171,13 +194,13 @@ button span i {
 
 @media (max-width: 767px) {
     .jumbotron-header {
-        font-size: 150%;
+        font-size: 180%;
     }
     .block-divider {
         width: 100px;
     }
     .lead {
-        font-size: 80%;
+        font-size: 90%;
     }
     .service-text {
         font-size: 50%;
@@ -315,7 +338,42 @@ button span i {
 }
 
 
-footer {
+
+.footer {
+    background: #589500;
+    padding: 20px 0px;
+    color: #000000;
+}
+
+.footer h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #FFAA00;
+}
+
+.website {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.footer ul li {
+    margin: 5px 0px;
+}
+
+.social-links a:hover {
+    color: #FFAA00;
+}
+
+.social-links li a {
+  color: #000000;
+  font-size: 250%;
+}
+
+
+
+/* footer {
     background-color: #589500;
     line-height: 100%;
     align-items: center;
@@ -348,7 +406,7 @@ footer {
 .copyright {
     display: inline-block;
     text-align: center;
-}
+} 
 
 
 
