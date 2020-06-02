@@ -46,8 +46,6 @@
         padding-top: 15%;
         padding-bottom: 5%;
     }
-    
-
 }
 
 
@@ -183,8 +181,6 @@ button span i {
     .service-text {
         font-size: 50%;
     }
-    
-
 }
 
 .jumbotron .lead {
@@ -194,7 +190,23 @@ button span i {
   font-weight: bold;
 }
 
+.jumbotron .lead1 {
+  margin: 25px 0;
+  color: #8a2be2;
+  font-family: 'josefin sans', sans-serif;
+  font-weight: bold;
+  font-size: 180%;
+}
 
+@media (max-width: 767px) {
+    .jumbotron .lead1 {
+        font-size: 100%;
+    }
+    .jumbotron .lead {
+        font-size: 80%;
+    }
+    
+}
 
 .btn--cta {
   font-weight: bold;
