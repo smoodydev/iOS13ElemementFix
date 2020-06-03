@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100,200,300,400,500,600,700&family=Montserrat:wght@100,200,300,400,500,600,700&display=swap');
 
 
-
-.container-wrapper {
-    background-color: rgba(188, 244, 110, 0.5);
-}
+/* --------------------------------------------------------------------------------LANDING PAGE------------------------------------------------------------------------------------------ */
 
 
+/* ---------------------------------------------Hero Image--------------------------------------------------- */
 
 .hero-container {
   height: 100vh;
@@ -50,46 +48,27 @@
 
 
 
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
+/* ---------------------------------------------Navbar Styling--------------------------------------------------- */
+
+.company-name1 {
+border-bottom: 2px solid #FFAA00;
+font-family: 'josefin sans', sans-serif;
+font-weight: 700;
+font-size: 40px;
+font-style: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-left: 0;
 }
 
-.page-header h2 {
-    margin-top: 0;
+.company-name2 {
+    color: #000000;
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 0;
+    margin-left: 0;
 }
-
-.quotes .page-header {
-    margin-bottom: 25px;
-}
-
-
-.block-divider {
-  width: 200px;
-  height: 5px;
-  border: 0;
-  background-color: #FFAA00;
-}
-
-.block-divider--orange {
-  background-color: #f05f40;
-}
-
-.block-divider--white {
-    background-color: white;
-}
-
-.block-divider--short {
-  width: 35px;
-}
-
-.content-container {
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-
 
 .navalert-container {
   position: absolute;
@@ -128,17 +107,36 @@
 
 .navbar .navbar-toggler {
     border: 0;
+    font-size: 250%;
 }
 
 
 
 
+/* ---------------------------------------------Container Styling--------------------------------------------------- */
 
-
-button span i {
-    font-size: 200%;
-    color: #000000;
+.container-wrapper {
+    background-color: rgba(188, 244, 110, 0.5);
 }
+
+.content-container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+/* ---------------------------------------------Block Divider--------------------------------------------------- */
+
+.block-divider {
+  width: 200px;
+  height: 5px;
+  border: 0;
+  background-color: #FFAA00;
+}
+
+
+
+/* ---------------------------------------------Jumbotron Styling--------------------------------------------------- */
 
 .jumbotron {
   background-color: rgba(188, 244, 110, 0.8);
@@ -192,10 +190,11 @@ button span i {
 
 .jumbotron .lead1 {
   margin: 25px 0;
-  color: #8a2be2;
+  color: #008500;
   font-family: 'josefin sans', sans-serif;
   font-weight: bold;
   font-size: 180%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 767px) {
@@ -208,47 +207,41 @@ button span i {
     
 }
 
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+
+/* ---------------------------------------------Button Styling--------------------------------------------------- */
+
 .btn--cta {
   font-weight: bold;
   border-radius: 23px;
   width: 160px;
-}
-
-.btn--red {
   color: #000000;
   font-family: 'montserrat', sans-serif;
   background-color: #FFAA00;
   border-color: #FFAA00;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-  background-color: #df4929;
-  border-color: #df4929;
+.btn--cta:hover,
+.btn--cta:active,
+.btn--cta:focus,
+.btn--cta:active:focus {
+  background-color: #d836c4;
+  border-color: #d836c4;
 }
 
-.feature {
-    text-align: center;
-    margin-bottom: 40px;
-}
 
-.feature i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
-}
+/* ---------------------------------------------Services Section Icon Links and Text--------------------------------------------------- */
 
-.feature .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
-}
 
 .service-link {
     color: #589500;
@@ -260,8 +253,6 @@ button span i {
     color: #FFAA00;
 }
 
-
-
 .service-text {
     color: #000000;
     font-family: 'montserrat', sans-serif;
@@ -269,6 +260,10 @@ button span i {
     font-weight: 700;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+
+/* ---------------------------------------------Reviews Section and Bootstrap Carousel--------------------------------------------------- */
+
 
 .review-pic {
     width: 20%;
@@ -329,6 +324,9 @@ button span i {
 
 
 
+/* ---------------------------------------------Footer Styling--------------------------------------------------- */
+
+
 .footer {
     background: #589500;
     padding: 20px 0px;
@@ -337,6 +335,7 @@ button span i {
 
 .footer h1 {
     font-weight: 700;
+    font-family: 'josefin sans', sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 15px;
@@ -352,6 +351,10 @@ button span i {
     margin: 5px 0px;
 }
 
+.footer-sub-text {
+    font-family: 'montserrat', sans-serif;
+}
+
 .social-links a:hover {
     color: #FFAA00;
 }
@@ -363,28 +366,7 @@ button span i {
 
 
 
-
-
-
-.company-name1 {
-border-bottom: 2px solid #FFAA00;
-font-family: 'josefin sans', sans-serif;
-font-weight: 700;
-font-size: 40px;
-font-style: normal;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-margin-left: 0;
-}
-
-.company-name2 {
-    color: #000000;
-    font-family: 'montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    line-height: 0;
-    margin-left: 0;
-}
+/* ---------------------------------------------Phone Number Link Decoration--------------------------------------------------- */
 
 
 a[href^=tel] {
